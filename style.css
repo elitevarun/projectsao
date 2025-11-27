@@ -51,9 +51,6 @@
       span {
         color: red;
       }
-      span :hover{
-        color: yellow;
-      }
       h2 {
         font-size: 30px;
         text-transform: capitalize;
