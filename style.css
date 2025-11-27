@@ -1,0 +1,375 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.container {
+  background-color: black;
+  color: white;
+  .navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+
+    .logo {
+      font-size: 40px;
+    }
+    .subnavbar {
+      display: flex;
+      gap: 25px;
+      a {
+        color: white;
+        font-size: 25px;
+        text-transform: capitalize;
+        text-decoration: none;
+      }
+    }
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    gap: 20px;
+
+    .title {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      h3 {
+        font-size: 20px;
+        text-transform: capitalize;
+      }
+      h1 {
+        font-size: 50px;
+        text-transform: capitalize;
+      }
+      span {
+        color: red;
+      }
+      h2 {
+        font-size: 30px;
+        text-transform: capitalize;
+      }
+      p {
+        font-family: "Times New Roman", Times, serif;
+        text-align: justify;
+      }
+      .icons {
+        font-size: 30px;
+      }
+      .btns {
+        display: flex ;
+        gap: 20px;
+        #hire {
+          padding: 5px;
+          font-size: 20px;
+          width: 130px;
+          border: none;
+          border-radius: 10px;
+          color: white;
+          background-color: red;
+          text-transform: capitalize;
+          text-decoration: none;
+        }
+        #contat {
+          text-decoration: none;
+          padding: 5px;
+          font-size: 20px;
+          width: 130px;
+          border: none;
+          border-radius: 10px;
+          color: white;
+          background-color: green;
+          text-transform: capitalize;
+        }
+      }
+    }
+    .image {
+      img {
+        height: 350px;
+        width: 300px;
+      }
+    }
+  }
+}
+
+.container1 {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+    height: 100px;
+    align-items: center;
+
+    .logo {
+      i {
+        font-size: 50px;
+      }
+    }
+    .subbar {
+      display: flex;
+      gap: 20px;
+
+      a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+  }
+  .main2 {
+    display: flex;
+    justify-content: center;
+    height: 638px;
+    align-items: center;
+ 
+    .main1 {
+      display: flex;
+      gap: 40px;
+      padding: 20px;
+      background-color: lightblue;
+      border-radius: 25px;
+      .proimg {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       
+        align-items: center;
+        img {
+          border-radius: 50px;
+        }
+      }
+      .title1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* background-color: lightblue; */
+        width: 420px;
+        .aboutme1 {
+          h1 {
+            font-size: 40px;
+            text-transform: capitalize;
+            padding-bottom: 5px;
+          }
+          p {
+            font-size: 20px;
+            font-family: "Times New Roman", Times, serif;
+            text-transform: capitalize;
+
+            text-align: justify;
+          }
+        }
+        .whatdo {
+          h2 {
+            font-size: 25px;
+            text-transform: capitalize;
+            font-family: "Times New Roman", Times, serif;
+            padding-bottom: 5px;
+          }
+          li {
+            margin-left: 20px;
+            font-size: 20px;
+            text-transform: capitalize;
+          }
+        }
+        .skills {
+
+          h3 {
+            font-size: 25px;
+            text-transform: capitalize;
+            font-family: "Times New Roman", Times, serif;
+            padding-bottom: 5px;
+          }
+          .btn2 {
+            display: flex;
+            gap: 15px;
+            button {
+              text-transform: capitalize;
+              font-size: 20px;
+              width: 130px;
+              border-radius: 5px;
+              padding: 4px;
+            }
+          }
+        }
+        .goal {
+          h4 {
+            font-size: 25px;
+            text-transform: capitalize;
+            font-family: "Times New Roman", Times, serif;
+            padding-bottom: 5px;
+          }
+          p {
+            font-size: 20px;
+            font-family: "Times New Roman", Times, serif;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+}
+
+.container2 {
+  background-color: #cde7ff;
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+    height: 100px;
+    align-items: center;
+
+    .logo {
+      i {
+        font-size: 50px;
+      }
+    }
+    .subbar {
+      display: flex;
+      gap: 20px;
+
+      a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    height: 638px;
+    align-items: center;
+
+    .innermain {
+      display: flex;
+      gap: 10px;
+      /* border: 2px solid darkblue; */
+      padding: 20px;
+      background-color: #2f54a3;
+      border-radius: 30px;
+
+      .getimg {
+        text-decoration: none;
+      }
+      .formdata {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          #in {
+            border-radius: 10px;
+            padding: 5px;
+            font-size: 30px;
+            width: 350px;
+            text-transform: capitalize;
+          }
+          .bttn {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            #btn {
+              background-color: #1a3d7c;
+              color: white;
+              border-radius: 10px;
+              padding: 5px;
+              width: 150px;
+              font-size: 30px;
+              text-decoration: none;
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.container3{
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+    height: 100px;
+    align-items: center;
+
+    .logo {
+      i {
+        font-size: 50px;
+      }
+    }
+    .subbar {
+      display: flex;
+      gap: 20px;
+
+      a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    .submain{
+
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      
+      gap: 20px;
+      /* border: 2px solid red; */
+      .text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        h1{
+          text-transform: capitalize;
+          font-size: 50px;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        p{
+          text-transform: capitalize;
+          text-align: justify;
+          width: 450px;
+          font-size: 25px;
+        }
+        button{
+          width: 250px;
+          border-radius: 5px;
+        padding: 5px;
+        a{
+          
+          font-size: 40px;
+          text-decoration: none;
+          text-transform: capitalize;
+          
+        }
+      }
+    }
+    .image{
+      img{
+        height: 600px;
+        width: 600px;
+      }
+    }
+    }
+
+  }
+
+
+}
