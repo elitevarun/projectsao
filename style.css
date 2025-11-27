@@ -99,6 +99,9 @@
 }
 
 .container1 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   background-color: black;
   .navbar {
     background-color: black;
